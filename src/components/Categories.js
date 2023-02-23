@@ -4,7 +4,7 @@ function Categories() {
   return (
     <div className={styles.homeContainer}>
       <h2 className={styles.h2}>Welcome to our main page!</h2>
-      <button type='button'>Check Status</button>
+      <button type="button">Check Status</button>
       <p className={styles.p}>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,
