@@ -120,13 +120,15 @@ Once the project is installed you only need to run the script (npm run build  ->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Paginator]**
+- [ ] **[Styles]**
+- [ ] **[Animations]**
+- [ ] **[Redux]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
