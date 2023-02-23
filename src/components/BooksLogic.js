@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 import BooksList from './BooksList';
 import NewBook from './NewBook';
 
@@ -11,7 +9,7 @@ function getInitialTodos() {
       author: 'Nelson Araujo',
       lastChapter: '17',
       percent: '25',
-      status: 'Completed'
+      status: 'Completed',
     },
     {
       id: '12asd5222',
@@ -19,7 +17,7 @@ function getInitialTodos() {
       author: 'Araujo Araujo',
       lastChapter: '10',
       percent: '88',
-      status: 'Completed'
+      status: 'Completed',
     },
     {
       id: '1as2asd52',
@@ -27,24 +25,14 @@ function getInitialTodos() {
       author: 'Nelson Paredes',
       lastChapter: '3',
       percent: '77',
-      status: 'Completed'
+      status: 'Completed',
     },
-  ]
+  ];
   return books || [];
 }
 
 function BooksLogic() {
-  const [todos, setTodos] = useState(getInitialTodos());
-
-  useEffect(() => {
-    // storing todos items
-    const temp = JSON.stringify(todos);
-    localStorage.setItem('todos', temp);
-    return (
-      localStorage.removeItem('todos')
-    )
-  }, [todos]);
-
+  const todos = getInitialTodos();
   return (
     <section style={{ display: 'flex', flexDirection: 'column' }}>
       <BooksList
