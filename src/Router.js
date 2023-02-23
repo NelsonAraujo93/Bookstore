@@ -11,7 +11,7 @@ function RouterNav() {
       <BrowserRouter className="app-container">
         <Navbar />
         <Routes>
-          <Route exact path="books" element={<Books />} />
+          <Route exact path="/" element={<Books />} />
           <Route path="categories" element={<Categories />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
