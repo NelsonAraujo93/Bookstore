@@ -4,7 +4,6 @@ import ErrorPage from './components/ErrorPage';
 import Navbar from './components/Navbar';
 import Books from './components/Books';
 import Categories from './components/Categories';
-import Counter from './components/Counter';
 
 function RouterNav() {
   return (
@@ -12,8 +11,7 @@ function RouterNav() {
       <BrowserRouter className="app-container">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Counter />} />
-          <Route exact path="books" element={<Books />} />
+          <Route exact path="/" element={<Books />} />
           <Route path="categories" element={<Categories />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

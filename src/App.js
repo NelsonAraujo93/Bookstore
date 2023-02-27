@@ -1,7 +1,7 @@
 import './App.css';
 import { Provider } from 'react-redux';
 import RouterNav from './Router';
-import Store from './components/Store';
+import Store from './redux/Store';
 
 function App() {
   return (
