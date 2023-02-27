@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { v4 as uuidv4 } from 'uuid';
 
 const initialState = {
   bookList: [],
@@ -12,17 +13,14 @@ export const booksSlice = createSlice({
       const newObject = {
         title: action.payload.title,
         author: action.payload.author,
+        id: uuidv4(),
       };
-      const newList = [...state.bookList];
-      newList.push(newObject);
-      state.bookList = newList;
+      state.bookList.push(newObject);
     },
     remove: (state, action) => {
-      const filterArray = state.bookList;
-      filterArray.filter((books) => (
+      state.bookList.filter((books) => (
         books.id !== action.payload.id
       ));
-      state.bookList = filterArray;
     },
   },
 });
