@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Monserrat';
-  src: url('./assets/fonts/Montserrat-Regular.ttf');
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
 }
 
 @font-face {
-  font-family: 'Monserrat-Semi';
-  src: url('./assets/fonts/Montserrat-SemiBold.ttf');
+  font-family: 'Roboto-Slab';
+  src: url('./assets/fonts/RobotoSlab-VariableFont_wght.ttf');
 }
 
 html {
@@ -19,6 +19,7 @@ body {
   padding: 4%;
   background-color: #f5f6fa;
   font-family: 'Monserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 code {
@@ -37,4 +38,13 @@ code {
   border-radius: 4px;
   box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
   background-color: #fafafa;
+}
+
+.CircularProgressbar-path {
+  stroke: #307bbe !important;
+}
+
+::placeholder {
+  color: #c8c8c8;
+  opacity: 1;
 }

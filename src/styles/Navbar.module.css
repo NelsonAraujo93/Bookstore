@@ -15,7 +15,7 @@ ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  gap: 20px;
+  gap: 40px;
 }
 
 li a {
@@ -24,7 +24,6 @@ li a {
 
 .navLink {
   opacity: .5;
-  font-family: 'Montserrat', sans-serif;
   font-size: .813rem;
   color: #121212;
   letter-spacing: 1.9px;
@@ -37,6 +36,7 @@ li a {
 }
 
 .active {
+  font-size: .813rem;
   text-transform: uppercase;
   color: #121212;
   letter-spacing: 1.9px;
@@ -44,13 +44,25 @@ li a {
 }
 
 h1 {
-  font-family: 'Montserrat-Semi', sans-serif;
   font-size: 1.875rem;
   color: #0290ff;
+  font-weight: bold;
 }
 
 .left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.iconBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 2.813rem;
+  height: 2.813rem;
+  border-radius: 50%;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
 }

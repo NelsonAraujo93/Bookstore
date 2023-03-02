@@ -1,3 +1,4 @@
+import { BsFillPersonFill } from 'react-icons/bs';
 import { NavLink } from 'react-router-dom';
 import styles from '../styles/Navbar.module.css';
 
@@ -32,7 +33,12 @@ function Navbar() {
         </ul>
       </div>
       <div className={styles.rigth}>
-        icono
+        <div className={styles.iconBtn}>
+          <BsFillPersonFill
+            color="#0290ff"
+            size={22}
+          />
+        </div>
       </div>
     </nav>
   );

@@ -1,5 +1,6 @@
 import BooksList from './BooksList';
 import NewBook from './NewBook';
+import styles from '../styles/Books.module.css';
 
 function Books() {
   return (
@@ -18,10 +19,11 @@ function Books() {
             flexDirection: 'column',
             flex: 1,
             boxSizing: 'border-box',
-            padding: 40,
+            padding: '4%',
           }}
         >
           <BooksList />
+          <div className={styles.horizontalDivider}> </div>
           <NewBook />
         </section>
       </div>
