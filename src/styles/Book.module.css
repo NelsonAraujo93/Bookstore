@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Monserrat';
+  src: url('../assets/fonts/Montserrat-Regular.ttf');
+}
+
 article {
   display: flex;
   background: white;
@@ -22,10 +27,13 @@ article {
   margin: 0;
 }
 
-.bookCat {
-  margin: 0;
-}
-
 .buttonList {
   padding-left: 0;
+}
+
+.category {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .875rem;
+  opacity: .5;
+  margin: 0;
 }

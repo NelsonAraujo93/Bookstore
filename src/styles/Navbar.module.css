@@ -4,11 +4,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  height: 80px;
+  height: 94px;
   box-sizing: border-box;
-  padding: 0 30px;
-  margin-bottom: 30px;
+  padding: 24px 4%;
   background: white;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 ul {
@@ -23,20 +23,34 @@ li a {
 }
 
 .navLink {
-  color: gray;
-  transition: all 250ms ease-in-out;
+  opacity: .5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .813rem;
+  color: #121212;
+  letter-spacing: 1.9px;
+  text-transform: uppercase;
 }
 
 .navLink:hover {
-  color: rgb(80, 80, 80);
+  color: #121212;
+  opacity: 1;
 }
 
 .active {
-  color: rgb(80, 80, 80);
-  font-weight: 700;
+  text-transform: uppercase;
+  color: #121212;
+  letter-spacing: 1.9px;
+  opacity: 1;
 }
 
 h1 {
-  font-size: 42px;
-  font-weight: 700;
+  font-family: 'Montserrat-Semi', sans-serif;
+  font-size: 1.875rem;
+  color: #0290ff;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }

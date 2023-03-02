@@ -9,7 +9,7 @@ function Book({ bookData }) {
     <>
       <article className={styles.article}>
         <div className={styles.mainContent}>
-          <h4 className={styles.bookCat}>{bookData.category}</h4>
+          <h4 className={styles.category}>{bookData.category}</h4>
           <h2 className={styles.bookTitle}>{bookData.title}</h2>
           <h4 className={styles.bookCat}>{bookData.author}</h4>
           <ul className={styles.buttonList}>
