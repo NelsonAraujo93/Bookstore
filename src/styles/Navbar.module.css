@@ -23,8 +23,8 @@ li a {
 }
 
 .navLink {
-  opacity: .5;
-  font-size: .813rem;
+  opacity: 0.5;
+  font-size: 0.813rem;
   color: #121212;
   letter-spacing: 1.9px;
   text-transform: uppercase;
@@ -36,7 +36,7 @@ li a {
 }
 
 .active {
-  font-size: .813rem;
+  font-size: 0.813rem;
   text-transform: uppercase;
   color: #121212;
   letter-spacing: 1.9px;
